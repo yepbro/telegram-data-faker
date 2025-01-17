@@ -1,0 +1,35 @@
+{
+  "name": "yepbro/telegram-data-faker",
+  "description": "Faker is a PHP library that generates fake telegram bot api update objects for you.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "faker",
+    "fixtures",
+    "data",
+    "telegram"
+  ],
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YepBro\\TelegramDataFaker\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YepBro\\TelegramDataFaker\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Denis aka YepBro",
+      "email": "denis@yepbro.ru"
+    }
+  ],
+  "minimum-stability": "stable"
+}
