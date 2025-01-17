@@ -3,9 +3,12 @@
 namespace YepBro\TelegramDataFaker\Attributes\Generators;
 
 use Attribute;
+use YepBro\TelegramDataFaker\Tests\Generators\TypeIntegerTest;
 
 /**
  * Integer with min amd max options
+ *
+ * @see TypeIntegerTest
  */
 #[Attribute(Attribute::TARGET_PROPERTY)]
 class TypeInteger implements IGenerator
