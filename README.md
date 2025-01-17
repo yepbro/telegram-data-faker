@@ -11,3 +11,13 @@
 ```shell
 composer yepbro/telegram-data-faker
 ```
+
+## Development
+
+### Tests
+
+Run tests
+
+```shell
+vendor/bin/phpunit tests/
+```
